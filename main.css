@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 nav {
     background-color: rgb(218, 170, 14);
@@ -16,11 +15,17 @@ a[href="#frf"] {
    position: relative;
    margin-right: auto;
    margin-left: 30px; 
+  
 }
 nav a {
     margin-right: 20px;
     text-decoration: none;
+    color: white;
+    clear:both;
 }
 a[href="#c"] {
     margin-right: 60px;
+}
+body {
+    clear:both;
 }
